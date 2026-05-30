@@ -1,56 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Personal</title>
-</head>
+    <link rel="stylesheet" href="estilos.css">
+ </head>
 
-<body>
-
-    <header>
-        <h1>Bienvenidos a mi Blog Personal</h1>
-    </header>
-
+ <body>
     <nav>
-        <a href="index.html">Inicio</a> |
-        <a href="sobre-mi.html">Sobre mí</a> |
-        <a href="educacion.html">Educación</a> |
-        <a href="hobbies.html">Hobbies</a>
-    </nav>
+        <span class="logo">Mi mundo Personal</span>
+        <ul>
+           <li>
+           <a href="index.html" class="activo">Inicio</a>
+           </li> 
+           <li> 
+               <a href="sobre-mi.html">Sobre mí</a> |
+           </li> 
+           <li>  
+               <a href="educacion.html">Educación</a> |
+           </li> 
+           <li>  
+               <a href="hobbies.html">Hobbies</a>
+           </li>
+      </ul>
+  </nav>
+        <section id="inicio">
+            <div class="contenedor-inicio">
 
-    <hr>
+            
+               <img src="imagenes/foto.jpeg" alt="Foto de Alexandra" class="foto-perfil">  
+              <div class="texto-inicio">
+               <h1>Hola, soy <span class="nombre">Alexandra</span> 👋🏼 </h1>
+               <p>
+                Bienvenid@ aquí encontrarás información sobre mí,
+                mi formación académica, mis hobbies, intereses y
+                algunos aspectos importantes de mi vida.
+               </p>
+               <a href="sobre-mi.html" class="boton">Conoce mi mundo</a>
 
-    <main>
+            </div>
+              </div>
+    </section>
 
-        <section>
-
-            <p>
-                Hola, mi nombre es Estefania y esta es mi página web personal.
-            </p>
-
-            <p>
-                Aquí compartiré información sobre mi vida, mi educación
-                y las actividades que me gustan.
-            </p>
-
-        </section>
-
-        <section>
-
-            <h2>Contenido de mi blog</h2>
-
-            <ul>
-                <li>Información personal</li>
-                <li>Mi formación académica</li>
-                <li>Mis hobbies favoritos</li>
-            </ul>
-
-        </section>
-
-    </main>
-
+        <footer>
+            <p>Programando 😎 y CSS - 2026</p>
+        </footer>
 </body>
-
 </html>
